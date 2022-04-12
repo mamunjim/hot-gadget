@@ -1,0 +1,85 @@
+
+
+.menu{
+    padding-top: 30px;
+}
+.nav a{
+    color:gray;
+}
+.banner{
+    background-image: url(images/bg-2.png);
+   
+    background-size:10%;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+   
+}
+.btm-mgn{
+    margin-bottom: 60px;
+}
+.buy{
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.buy::after{
+    content: '\f061';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: bold;
+    margin-left: 10px;
+}
+.buy:hover{
+    background: rgb(231, 227, 227);
+    color: #000;
+}
+
+.orange{
+    background-image: url(images/bg-1.png);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size:5%;
+    background-position: center center;
+   
+}
+.carousel-item{
+    padding: 10px 40px;
+}
+.mobile-header a{
+    text-decoration: none;
+}
+.card p{
+    color: gray;
+}
+.card-footer{
+    border-top: none;
+    background: none;
+}
+.no-border{
+    border: none;
+    box-shadow: 10px 20px 30px lightgray;
+    text-align: center;
+    padding: 20px;
+}
+.btm-mgn-many{
+    margin-bottom: 100px;
+}
+.catagories h4{
+    border-bottom: 5px solid #000;
+    display: inline-block;
+    border-image: linear-gradient(blue,orange);
+    border-image-slice: 1;
+    
+}
+.catagories{
+    text-align: center;
+}
+.box-image img{
+    box-shadow: 1px 1px 5px gray;
+    padding: 20px;
+    border-radius: 10px;
+}
+.mb{
+    margin-bottom: 20px;
+}
